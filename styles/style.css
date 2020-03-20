@@ -2,3 +2,36 @@
 .no-padding-top {
     padding-top: 0px;
 }
+
+.card hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: none;
+    background-color: #DBDBDB;
+    width: 100%;
+    height: .1rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.icon-title i {
+    color: #363636;
+}
+
+.skill-icon {
+    width: 50px;
+}
+
+.box {
+    box-shadow: none;
+    padding-top: 3rem;
+    background-color: #b5deb5;
+}
+
+.card-header {
+    background-color: #b5b5de
+}
