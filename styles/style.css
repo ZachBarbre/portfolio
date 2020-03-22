@@ -1,0 +1,74 @@
+
+.no-padding-top {
+    padding-top: 0px;
+}
+
+.card {
+    border-radius: 6px;
+}
+
+.card hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: none;
+    background-color: #DBDBDB;
+    width: 100%;
+    height: .1rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.icon-title i {
+    color: #363636;
+}
+
+.skill-icon {
+    width: 50px;
+}
+
+.box {
+    box-shadow: none;
+    padding-top: 3rem;
+    background-color: #b5deb5;
+}
+
+.card-header {
+    background-color: #b5b5de;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.footer{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    background-image: linear-gradient(51deg,#1f191a 0,#363636 71%,#46403f 100%);
+
+}
+
+.dark ul {
+    border-bottom: none;
+}
+
+.dark a {
+    color: #e1e1e1;
+
+}
+
+.dark a:hover {
+    color: #fff
+}
+
+.bulma {
+
+    margin-top: 3rem;
+}
+
+.bulma img {
+    width: 128px;
+    height: 24px; 
+}
