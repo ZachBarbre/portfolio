@@ -22,6 +22,46 @@
     margin-bottom: 1rem;
 }
 
+.pojects-section {
+    display: grid;
+    gap: 20px;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: minmax(auto, 460px) minmax(50%, 1fr);
+    border-radius: 5px;
+    background-color: white;
+}
+
+@media screen and (max-width: 420px) {
+    .project {
+        grid-template-columns: 1fr;
+    }
+}
+
+.project > * {
+    margin: 1rem;
+}
+
+.project figure {
+    border: solid 1px #b5b5de;
+    border-radius: 5px;
+}
+
+.project .content {
+    /* background-color: white; */
+    padding: 1rem;
+}
+
+.project a {
+    margin: 0 .5rem;
+}
+
+.project p {
+    margin-top: 1rem;
+}
+
 .icon-title i {
     color: #363636;
 }
@@ -30,7 +70,7 @@
     width: 50px;
 }
 
-.box {
+.box.skills{
     box-shadow: none;
     padding-top: 3rem;
     background-color: #b5deb5;
