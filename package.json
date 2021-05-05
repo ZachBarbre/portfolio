@@ -4,7 +4,6 @@
   "description": "This is my web development portfoilo. Please contact me at: zach.barbre@gmail.com",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Mozilla Firefox\\firefox.exe\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +16,5 @@
     "url": "https://github.com/ZachBarbre/portfolio/issues"
   },
   "homepage": "https://github.com/ZachBarbre/portfolio#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.14"
-  }
+  "devDependencies": {}
 }
