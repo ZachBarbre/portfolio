@@ -115,12 +115,3 @@
 .dark a:hover {
   color: #fff;
 }
-
-.bulma {
-  margin-top: 3rem;
-}
-
-.bulma img {
-  width: 128px;
-  height: 24px;
-}
