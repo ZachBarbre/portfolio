@@ -2,6 +2,10 @@
   padding-top: 0px;
 }
 
+.work-link {
+  font-weight: bold;
+}
+
 .card {
   border-radius: 6px;
 }
